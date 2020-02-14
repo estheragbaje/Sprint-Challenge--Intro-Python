@@ -19,7 +19,7 @@
 # Put a comment noting which class is the base class
 
 
-class Vehicle(): #The base class is the Vehicle Class
+class Vehicle: #The base class is the Vehicle Class
   pass
 
 class GroundVehicle(Vehicle):
