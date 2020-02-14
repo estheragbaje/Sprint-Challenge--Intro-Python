@@ -43,7 +43,7 @@ def cityreader(cities=[]):
 
     for row in reader:
 
-      city = City(row[0], row[3], row[4]) #picking the rows we want from cities
+      city = City(row[0], float(row[3]), float(row[4])) #picking the rows we want from cities
       cities.append(city) #adding these rows to the ciy list
 
     csvFile.close()
